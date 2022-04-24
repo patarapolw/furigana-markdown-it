@@ -1,0 +1,4 @@
+# Ignore original files
+/lib/furigana.js
+/lib/ruby.js
+/test/test.js

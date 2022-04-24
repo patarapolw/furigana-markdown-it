@@ -18,9 +18,9 @@
   ],
   "author": "iltrof",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "markdown-it": "^12.3.2",
-    "mocha": "^9.2.2"
+    "mocha": "^9.2.2",
+    "typescript": "^4.6.3"
   }
 }
