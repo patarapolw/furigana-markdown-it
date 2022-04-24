@@ -1,5 +1,5 @@
 {
-  "name": "furigana-markdown-it",
+  "name": "@patarapolw/furigana-markdown-it",
   "version": "1.0.5",
   "description": "Furigana extension for markdown-it.",
   "main": "index.js",
@@ -9,18 +9,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iltrof/furigana-markdown-it"
+    "url": "https://github.com/patarapolw/furigana-markdown-it"
   },
   "keywords": [
     "markdown-it",
     "markdown",
     "furigana"
   ],
-  "author": "iltrof",
+  "author": {
+    "email": "polv@polv.cc",
+    "name": "Pacharapol Withayasakpunt",
+    "url": "https://www.polv.cc"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "markdown-it": "^12.3.2",
     "mocha": "^9.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

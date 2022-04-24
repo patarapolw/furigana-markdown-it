@@ -1,11 +1,13 @@
-# furigana-markdown-it
+# @patarapolw/furigana-markdown-it
 
 A [markdown-it](https://github.com/markdown-it/markdown-it)
 plugin which adds furigana support.
 
-If you're reading this on npm, try
-[github](https://github.com/iltrof/furigana-markdown-it)
-instead: npm doesn't render `<ruby>` tags.
+If Furigana doesn't render on npm, try
+[github](https://github.com/patarapolw/furigana-markdown-it)
+instead.
+
+Forked from <https://github.com/iltrof/furigana-markdown-it>.
 
 ## TOC
 
@@ -19,13 +21,13 @@ instead: npm doesn't render `<ruby>` tags.
 Install via npm:
 
 ```bash
-npm install furigana-markdown-it
+npm install @patarapolw/furigana-markdown-it
 ```
 
 Use with markdown-it:
 
 ```js
-const furigana = require("furigana-markdown-it")();
+const furigana = require("@patarapolw/furigana-markdown-it")();
 const md = require("markdown-it")().use(furigana);
 
 const html = md.render("[猫]{ねこ}");
@@ -35,7 +37,7 @@ const html = md.render("[猫]{ねこ}");
 Provide some options if you need (described below):
 
 ```js
-const furigana = require("furigana-markdown-it")({
+const furigana = require("@patarapolw/furigana-markdown-it")({
   fallbackParens: "()",
   extraSeparators: "-",
   extraCombinators: "'",
@@ -190,7 +192,7 @@ Of couse, the full-width asterisk (＊) also works.
 Options can be provided during initialization of the plugin:
 
 ```js
-const furigana = require("furigana-markdown-it")({
+const furigana = require("@patarapolw/furigana-markdown-it")({
   fallbackParens: "()",
   extraSeparators: "-",
   extraCombinators: "'",
